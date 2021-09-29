@@ -63,4 +63,5 @@ driver.find_element_by_xpath('//*[@id="survey_q1a1"]').click() #아니요
 driver.find_element_by_xpath('//*[@id="survey_q2a1"]').click() #아니요
 driver.find_element_by_xpath('//*[@id="survey_q3a1"]').click() #아니요
 driver.find_element_by_xpath('//*[@id="btnConfirm"]').click() #확인
+driver.quit()
 sys.exit(0)
